@@ -1,0 +1,58 @@
+COUNTRIES = {
+  c:CAN = {
+	set_next_election_date = 1836.7.13
+	
+	effect_starting_technology_tier_2_tech = yes
+	effect_starting_politics_conservative = yes
+	
+	set_tax_level = medium
+	
+	# The Canaries were deeply Catholic and rural
+	activate_law = law_type:law_monarchy
+	activate_law = law_type:law_landed_voting
+	activate_law = law_type:law_state_religion
+	activate_law = law_type:law_legacy_slavery
+	activate_law = law_type:law_ethnostate
+	activate_law = law_type:law_mercantilism
+	activate_law = law_type:law_traditionalism
+	activate_law = law_type:law_land_based_taxation
+	activate_law = law_type:law_religious_schools
+	activate_law = law_type:law_charitable_health_system
+	activate_law = law_type:law_oligarchy
+
+	set_institution_investment_level = {
+		institution = institution_health_system
+		level = 1
+	}
+	set_institution_investment_level = {
+		institution = institution_education_system
+		level = 1
+	}
+
+	# Economic survival through trade, wine and sugar
+	set_import_tariff_level = { 
+		goods = g:grain
+		level = no_tariffs
+	}
+	set_export_tariff_level = { 
+		goods = g:sugar
+		level = low_tariffs
+	}
+	set_export_tariff_level = { 
+		goods = g:wine
+		level = low_tariffs
+	}
+
+	# Interest Groups
+	ig:ig_devout = {
+		add_ruling_interest_group = yes
+	}
+	ig:ig_landowners = {
+		add_ruling_interest_group = yes
+	}
+	ig:ig_rural_folk = {
+		add_ruling_interest_group = yes
+	}
+}
+
+}

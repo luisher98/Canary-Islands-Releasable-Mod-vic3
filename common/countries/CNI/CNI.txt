@@ -1,0 +1,7 @@
+CNI = {
+  color = { 255 204 0 }
+  type = recognized
+  tier = principality
+  cultures = { spanish }
+  capital = STATE_CANARY_ISLANDS
+}

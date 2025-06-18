@@ -1,0 +1,10 @@
+STATE_CANARY_ISLANDS = {
+  create_state = {
+    country = c:SPA
+    owned_provinces = { x20EF01 }
+    state_type = unincorporated
+  }
+
+  add_homeland = cu:spanish
+  add_core_country = c:CNI
+}
